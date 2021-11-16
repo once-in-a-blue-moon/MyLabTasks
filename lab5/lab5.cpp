@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	float a, b;
-	cout << "Enter a, b: " << endl;
+	cout << "Enter a, b:" << endl;
 	cin >> a >> b;
 	for (int n = a; n <= b; n++){ 
 		int k = 0, S = 0;
