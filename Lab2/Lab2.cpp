@@ -14,7 +14,7 @@ int main()
 	cin >> y;
 	double circle = x * x + y * y;
 	if (circle <= 4) {
-		if (x >= 0 && y >= 0 && x + y >= 2) {
+		if (x >= 0 && y >= 0 && x + y <= 2) {
 			cout << result_pos;
 		}
 		else if (x >= 0 && y < 0 && -x + y >= -2) {
@@ -23,7 +23,7 @@ int main()
 		else if (x < 0 && y >= 0 && -x + y <= 2) {
 			cout << result_pos;
 		}
-		else if (x < 0 && y < 0 && x + y <= -2) {
+		else if (x < 0 && y < 0 && x + y >= -2) {
 			cout << result_pos;
 		}
 		else {
