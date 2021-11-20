@@ -11,8 +11,8 @@ int main()
 			cout << "n = " << n;
 			for (int i = 1; i <= n; i++) {
 				if (n % i == 0) {
-					k = k + 1;
-					S = S + i;
+					k++;
+					S += i;
 				
 				}
 		
