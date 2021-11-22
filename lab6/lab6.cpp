@@ -1,8 +1,6 @@
 ﻿#include <iostream>
-#include <cmath>
-#define _USE_MATH_DEFINES
+#include <math.h>
 using namespace std;
-
 
 const double pi = 3.14159265358979323846;
 
