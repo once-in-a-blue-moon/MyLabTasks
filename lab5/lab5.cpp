@@ -8,12 +8,12 @@ int main()
 	for (int n = a; n <= b; n++){ 
 		if (n>0){
 			int k = 0, S = 0;
-			cout << "n = " << n;
+			cout << "n = " << n << ". dividers are:";
 			for (int i = 1; i <= n; i++) {
 				if (n % i == 0) {
 					k++;
 					S += i;
-				
+					cout << " " << i;
 				}
 		
 			}
