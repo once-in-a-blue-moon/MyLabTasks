@@ -18,6 +18,7 @@ int main(){
 	print_array(p, m);
 	cout << "max element is " << max_el(p, m) << endl;
 	cout << "d = " << sigma(p, m) << endl;
+	cout << "Result: " << endl;
 	arrMinusD(p, m);
 	delete [] p;
 }
@@ -50,7 +51,6 @@ int sigma(int* arr, int size) {
 	return d;
 }
 void arrMinusD(int* arr, int size) {
-	cout << "Result: " << endl;
 	int d = sigma(arr, size);
 	for (int i = 0; i < size; i++) {
 		arr[i] = arr[i];
